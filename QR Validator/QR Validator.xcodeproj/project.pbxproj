@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1243B3C28832FA5008D1165 /* QR_ValidatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1243B3B28832FA5008D1165 /* QR_ValidatorApp.swift */; };
+		B1243B3E28832FA5008D1165 /* LoadingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1243B3D28832FA5008D1165 /* LoadingScreenView.swift */; };
+		B1243B4028832FA5008D1165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1243B3F28832FA5008D1165 /* Assets.xcassets */; };
+		B1243B4328832FA5008D1165 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1243B4228832FA5008D1165 /* Preview Assets.xcassets */; };
+		B1243B4D288330BE008D1165 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1243B4C288330BE008D1165 /* MainView.swift */; };
+		B1243B4F28833380008D1165 /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1243B4E28833380008D1165 /* CameraModel.swift */; };
+		B1243B5128833942008D1165 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1243B5028833942008D1165 /* CameraView.swift */; };
+		B19CAA432886E35D00354676 /* ThreatTypeHelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19CAA422886E35D00354676 /* ThreatTypeHelpView.swift */; };
+		B19CAA452889BA2A00354676 /* secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = B19CAA442889BA2A00354676 /* secrets.plist */; };
+		B1B33BCB288356290056363B /* AppManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B33BCA288356290056363B /* AppManagerViewModel.swift */; };
+		B1B33BCD2883D2E80056363B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B33BCC2883D2E80056363B /* SettingsView.swift */; };
+		B1B33BD0288444ED0056363B /* ErrorResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B33BCF288444ED0056363B /* ErrorResultView.swift */; };
+		B1B33BD22884450F0056363B /* SafeURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B33BD12884450F0056363B /* SafeURLView.swift */; };
+		B1F2CAB728848DF0007AE568 /* APIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CAB628848DF0007AE568 /* APIViewModel.swift */; };
+		B1F2CABA288490F4007AE568 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CAB9288490F4007AE568 /* CustomErrors.swift */; };
+		B1F2CABC28849270007AE568 /* UnsafeURLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CABB28849270007AE568 /* UnsafeURLView.swift */; };
+		B1F2CAC028857466007AE568 /* APIResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CABF28857466007AE568 /* APIResponseModel.swift */; };
+		B1F2CAC2288579F6007AE568 /* APIResponseModelMatches.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CAC1288579F6007AE568 /* APIResponseModelMatches.swift */; };
+		B1F2CAC628857A8D007AE568 /* APIResponseModelMatchesEntries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CAC528857A8D007AE568 /* APIResponseModelMatchesEntries.swift */; };
+		B1F2CAC828859277007AE568 /* APIResponseModelMatchesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CAC728859277007AE568 /* APIResponseModelMatchesData.swift */; };
+		B1F2CACB2885DFD6007AE568 /* SafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CACA2885DFD6007AE568 /* SafariViewWrapper.swift */; };
+		B1F2CACD2885EF2B007AE568 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CACC2885EF2B007AE568 /* PrivacyView.swift */; };
+		B1F2CACF2885EF39007AE568 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CACE2885EF39007AE568 /* HelpView.swift */; };
+		B1F2CAD12886AFC4007AE568 /* MultipleSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CAD02886AFC4007AE568 /* MultipleSelectionRow.swift */; };
+		B1F2CAD32886D5F6007AE568 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F2CAD22886D5F6007AE568 /* FooterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1243B3828832FA5008D1165 /* QR Validator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QR Validator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1243B3B28832FA5008D1165 /* QR_ValidatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QR_ValidatorApp.swift; sourceTree = "<group>"; };
+		B1243B3D28832FA5008D1165 /* LoadingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenView.swift; sourceTree = "<group>"; };
+		B1243B3F28832FA5008D1165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1243B4228832FA5008D1165 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1243B4C288330BE008D1165 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B1243B4E28833380008D1165 /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		B1243B5028833942008D1165 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		B19CAA422886E35D00354676 /* ThreatTypeHelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreatTypeHelpView.swift; sourceTree = "<group>"; };
+		B19CAA442889BA2A00354676 /* secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = secrets.plist; sourceTree = "<group>"; };
+		B19CAA472891621F00354676 /* QR-Validator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "QR-Validator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B1B33BCA288356290056363B /* AppManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManagerViewModel.swift; sourceTree = "<group>"; };
+		B1B33BCC2883D2E80056363B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B1B33BCF288444ED0056363B /* ErrorResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResultView.swift; sourceTree = "<group>"; };
+		B1B33BD12884450F0056363B /* SafeURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeURLView.swift; sourceTree = "<group>"; };
+		B1F2CAB628848DF0007AE568 /* APIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIViewModel.swift; sourceTree = "<group>"; };
+		B1F2CAB9288490F4007AE568 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		B1F2CABB28849270007AE568 /* UnsafeURLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsafeURLView.swift; sourceTree = "<group>"; };
+		B1F2CABF28857466007AE568 /* APIResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseModel.swift; sourceTree = "<group>"; };
+		B1F2CAC1288579F6007AE568 /* APIResponseModelMatches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseModelMatches.swift; sourceTree = "<group>"; };
+		B1F2CAC528857A8D007AE568 /* APIResponseModelMatchesEntries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseModelMatchesEntries.swift; sourceTree = "<group>"; };
+		B1F2CAC728859277007AE568 /* APIResponseModelMatchesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponseModelMatchesData.swift; sourceTree = "<group>"; };
+		B1F2CACA2885DFD6007AE568 /* SafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariViewWrapper.swift; sourceTree = "<group>"; };
+		B1F2CACC2885EF2B007AE568 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		B1F2CACE2885EF39007AE568 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		B1F2CAD02886AFC4007AE568 /* MultipleSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionRow.swift; sourceTree = "<group>"; };
+		B1F2CAD22886D5F6007AE568 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1243B3528832FA5008D1165 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1243B2F28832FA5008D1165 = {
+			isa = PBXGroup;
+			children = (
+				B1243B3A28832FA5008D1165 /* QR Validator */,
+				B1243B3928832FA5008D1165 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1243B3928832FA5008D1165 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1243B3828832FA5008D1165 /* QR Validator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1243B3A28832FA5008D1165 /* QR Validator */ = {
+			isa = PBXGroup;
+			children = (
+				B19CAA472891621F00354676 /* QR-Validator-Info.plist */,
+				B1F2CAB8288490EA007AE568 /* Utils */,
+				B1243B4B28832FEE008D1165 /* Model */,
+				B1243B4A28832FE6008D1165 /* ViewModel */,
+				B1243B4928832FDF008D1165 /* View */,
+				B1243B3B28832FA5008D1165 /* QR_ValidatorApp.swift */,
+				B1243B3F28832FA5008D1165 /* Assets.xcassets */,
+				B1243B4128832FA5008D1165 /* Preview Content */,
+				B19CAA442889BA2A00354676 /* secrets.plist */,
+			);
+			path = "QR Validator";
+			sourceTree = "<group>";
+		};
+		B1243B4128832FA5008D1165 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B1243B4228832FA5008D1165 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1243B4928832FDF008D1165 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B1F2CAC92885DFAF007AE568 /* Components */,
+				B1B33BCE288444E10056363B /* ResultViews */,
+				B1243B3D28832FA5008D1165 /* LoadingScreenView.swift */,
+				B1243B4C288330BE008D1165 /* MainView.swift */,
+				B1243B5028833942008D1165 /* CameraView.swift */,
+				B1B33BCC2883D2E80056363B /* SettingsView.swift */,
+				B1F2CACC2885EF2B007AE568 /* PrivacyView.swift */,
+				B1F2CACE2885EF39007AE568 /* HelpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B1243B4A28832FE6008D1165 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B1243B4E28833380008D1165 /* CameraModel.swift */,
+				B1B33BCA288356290056363B /* AppManagerViewModel.swift */,
+				B1F2CAB628848DF0007AE568 /* APIViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B1243B4B28832FEE008D1165 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1F2CABF28857466007AE568 /* APIResponseModel.swift */,
+				B1F2CAC1288579F6007AE568 /* APIResponseModelMatches.swift */,
+				B1F2CAC528857A8D007AE568 /* APIResponseModelMatchesEntries.swift */,
+				B1F2CAC728859277007AE568 /* APIResponseModelMatchesData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1B33BCE288444E10056363B /* ResultViews */ = {
+			isa = PBXGroup;
+			children = (
+				B1B33BCF288444ED0056363B /* ErrorResultView.swift */,
+				B1B33BD12884450F0056363B /* SafeURLView.swift */,
+				B1F2CABB28849270007AE568 /* UnsafeURLView.swift */,
+			);
+			path = ResultViews;
+			sourceTree = "<group>";
+		};
+		B1F2CAB8288490EA007AE568 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B1F2CAB9288490F4007AE568 /* CustomErrors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B1F2CAC92885DFAF007AE568 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B1F2CACA2885DFD6007AE568 /* SafariViewWrapper.swift */,
+				B1F2CAD02886AFC4007AE568 /* MultipleSelectionRow.swift */,
+				B1F2CAD22886D5F6007AE568 /* FooterView.swift */,
+				B19CAA422886E35D00354676 /* ThreatTypeHelpView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1243B3728832FA5008D1165 /* QR Validator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1243B4628832FA5008D1165 /* Build configuration list for PBXNativeTarget "QR Validator" */;
+			buildPhases = (
+				B1243B3428832FA5008D1165 /* Sources */,
+				B1243B3528832FA5008D1165 /* Frameworks */,
+				B1243B3628832FA5008D1165 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QR Validator";
+			productName = "QR Validator";
+			productReference = B1243B3828832FA5008D1165 /* QR Validator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1243B3028832FA5008D1165 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B1243B3728832FA5008D1165 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B1243B3328832FA5008D1165 /* Build configuration list for PBXProject "QR Validator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1243B2F28832FA5008D1165;
+			productRefGroup = B1243B3928832FA5008D1165 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1243B3728832FA5008D1165 /* QR Validator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1243B3628832FA5008D1165 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1243B4328832FA5008D1165 /* Preview Assets.xcassets in Resources */,
+				B1243B4028832FA5008D1165 /* Assets.xcassets in Resources */,
+				B19CAA452889BA2A00354676 /* secrets.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1243B3428832FA5008D1165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F2CAC028857466007AE568 /* APIResponseModel.swift in Sources */,
+				B1F2CAC628857A8D007AE568 /* APIResponseModelMatchesEntries.swift in Sources */,
+				B1F2CABA288490F4007AE568 /* CustomErrors.swift in Sources */,
+				B1F2CAD12886AFC4007AE568 /* MultipleSelectionRow.swift in Sources */,
+				B1B33BCD2883D2E80056363B /* SettingsView.swift in Sources */,
+				B1B33BD22884450F0056363B /* SafeURLView.swift in Sources */,
+				B1F2CABC28849270007AE568 /* UnsafeURLView.swift in Sources */,
+				B1F2CAC2288579F6007AE568 /* APIResponseModelMatches.swift in Sources */,
+				B1243B3E28832FA5008D1165 /* LoadingScreenView.swift in Sources */,
+				B1243B4F28833380008D1165 /* CameraModel.swift in Sources */,
+				B1B33BCB288356290056363B /* AppManagerViewModel.swift in Sources */,
+				B1F2CAB728848DF0007AE568 /* APIViewModel.swift in Sources */,
+				B1F2CACF2885EF39007AE568 /* HelpView.swift in Sources */,
+				B1F2CACD2885EF2B007AE568 /* PrivacyView.swift in Sources */,
+				B1B33BD0288444ED0056363B /* ErrorResultView.swift in Sources */,
+				B1F2CAD32886D5F6007AE568 /* FooterView.swift in Sources */,
+				B1243B4D288330BE008D1165 /* MainView.swift in Sources */,
+				B19CAA432886E35D00354676 /* ThreatTypeHelpView.swift in Sources */,
+				B1F2CACB2885DFD6007AE568 /* SafariViewWrapper.swift in Sources */,
+				B1243B5128833942008D1165 /* CameraView.swift in Sources */,
+				B1243B3C28832FA5008D1165 /* QR_ValidatorApp.swift in Sources */,
+				B1F2CAC828859277007AE568 /* APIResponseModelMatchesData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B1243B4428832FA5008D1165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1243B4528832FA5008D1165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1243B4728832FA5008D1165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "QR Validator/QR Validator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QR Validator/Preview Content\"";
+				DEVELOPMENT_TEAM = T49HPJF6KX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QR-Validator-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QR Validator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow camera access to scan QR codes.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lukehendriks.QRValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1243B4828832FA5008D1165 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "QR Validator/QR Validator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QR Validator/Preview Content\"";
+				DEVELOPMENT_TEAM = T49HPJF6KX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "QR-Validator-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "QR Validator";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow camera access to scan QR codes.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.lukehendriks.QRValidator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1243B3328832FA5008D1165 /* Build configuration list for PBXProject "QR Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1243B4428832FA5008D1165 /* Debug */,
+				B1243B4528832FA5008D1165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1243B4628832FA5008D1165 /* Build configuration list for PBXNativeTarget "QR Validator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1243B4728832FA5008D1165 /* Debug */,
+				B1243B4828832FA5008D1165 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1243B3028832FA5008D1165 /* Project object */;
+}
